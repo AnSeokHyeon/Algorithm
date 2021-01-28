@@ -8,7 +8,6 @@ public class Boj11729 {
 	//static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	/*
-	 * 
 String                :  문자열 연산이 적고 멀티쓰레드 환경일 경우
 StringBuffer     :  문자열 연산이 많고 멀티쓰레드 환경일 경우
 StringBuilder   :  문자열 연산이 많고 단일쓰레드이거나 동기화를 고려하지 않아도 되는 경우 
