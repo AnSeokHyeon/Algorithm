@@ -1,10 +1,8 @@
 package algo;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
 
 public class Boj11729 {
 	//static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
