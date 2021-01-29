@@ -1,3 +1,4 @@
+// 영화감독 숌
 package algo2;
 
 import java.util.Scanner;

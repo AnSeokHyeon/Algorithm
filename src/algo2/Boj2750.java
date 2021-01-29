@@ -1,3 +1,4 @@
+// 수 정렬하기
 package algo2;
 import java.util.Scanner;
 
