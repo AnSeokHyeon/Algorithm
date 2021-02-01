@@ -30,7 +30,7 @@ public class Boj2751 {
 		br.close();
 	}
 	*/
-	/* Quick Sort 사용 -> 71% 시간초과
+	// Quick Sort 사용 -> 71% 시간초과
 	static int partition(int[] array, int start, int end) {
 		int pivot = array[(start + end) / 2];
 		while (start <= end) {
@@ -71,7 +71,7 @@ public class Boj2751 {
 		}
 		
 		
-		array = quickSort(array, 0, array.length - 1);
+		quickSort(array, 0, array.length - 1);
 
 		for(int i = 0; i<N;i++) {
 			bw.write(String.valueOf(array[i])+"\n");
@@ -79,8 +79,8 @@ public class Boj2751 {
 		bw.close();
 		br.close();
 	}
-	*/
-	// 카운팅 소트 이용 => 맞음
+	
+/*	// 카운팅 소트 이용 => 맞음
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		// TODO Auto-generated method stub
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -104,5 +104,5 @@ public class Boj2751 {
 		bw.write(sb.toString());
 		bw.close();
 		br.close();
-	}
+	}*/
 }
