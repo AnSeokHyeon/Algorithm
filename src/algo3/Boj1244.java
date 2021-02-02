@@ -1,3 +1,5 @@
+// 스위치 켜고 끄기 
+// 예지님 의견 : break를 합치는게 좋은것 같아요
 package algo3;
 
 import java.util.Scanner;
@@ -35,9 +37,7 @@ public class Boj1244 {
 				while (true) {
 					int left = num - cnt;
 					int right = num + cnt;
-					if (left < 1 || right > N)
-						break;
-					if (s[left] != s[right])
+					if (left < 1 || right > N || (s[left] != s[right]))
 						break;
 					s[left] = s[right] = (s[right]) ? false : true;
 					cnt++;
