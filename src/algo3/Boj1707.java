@@ -26,6 +26,7 @@ public class Boj1707 {
 			int size = map[n].size();
 			for (int i = 0; i < size; i++) {
 				int next = map[n].get(i);
+				
 				if (chk[next] == 0) {
 					q.add(next);
 					chk[next] = chk[n] + 1;
