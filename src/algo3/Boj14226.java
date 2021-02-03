@@ -77,16 +77,17 @@ public class Boj14226 {
 		// TODO Auto-generated method stub
 
 		Scanner sc = new Scanner(System.in);
+		while (true) {
+			S = sc.nextInt();
+			chk = new boolean[10000][10000];
 
-		S = sc.nextInt();
-		chk = new boolean[10000][10000];
+			bfs();
 
-		bfs();
-
-		System.out.println(result);
-
+			System.out.println(result);
+			
+			if(S > 1000) break;
+		}
 		sc.close();
-
 	}
 
 }

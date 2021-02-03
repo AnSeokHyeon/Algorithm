@@ -8,8 +8,8 @@ public class Boj13549 {
 	static boolean[]chk;
 
 	static class Inf {
-		int X;
-		int T;
+		int X; //위치
+		int T; //시간
 
 		public Inf() {
 		}
