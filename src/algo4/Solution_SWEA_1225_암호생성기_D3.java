@@ -34,28 +34,21 @@ public class Solution_SWEA_1225_암호생성기_D3 {
 			int cycle = 1;
 			while (!q.isEmpty()) {
 				int a = q.poll();
-				System.out.println(a);
-				a = a - cycle;
+				a = a - (cycle++);
 				if (a < 1) {
-					a = 0;
-					q.add(a);
+					q.add(0);
 					break;
 				}
 				q.add(a);
-				cycle++;
 				if (cycle > 5)
 					cycle = 1;
 			}
 
 			while (!q.isEmpty()) {
-				int b = q.poll();
-				arr.add(b);
+				sb.append(q.poll() + " ");
 			}
-			for (int i = 0; i < arr.size(); i++) {
-				sb.append(arr.get(i) + " ");
-
-			}
-			sb.append("\n")
+			
+			sb.append("\n");
 
 		}
 		bw.write(sb.toString());
