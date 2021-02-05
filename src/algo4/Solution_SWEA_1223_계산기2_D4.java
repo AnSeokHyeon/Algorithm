@@ -32,8 +32,7 @@ public class Solution_SWEA_1223_계산기2_D4 {
 						if (c == st.peek()) {
 							sb2.append(st.peek());
 							st.pop();
-						} else if (c == '*' && st.peek() == '+') {
-						} else {
+						} else if (c < st.peek()) {
 							while (!st.isEmpty()) {
 								sb2.append(st.peek());
 								st.pop();
