@@ -52,24 +52,21 @@ public class Boj2580 {
 			board[x][y] = i;
 			dfs(n + 1);
 			board[x][y] = 0;
-			if(result) break;
+			if (result)
+				break;
 
 		}
 
 	}
 
 	static void cal() {
-		/*for (int i = 0; i < empty.size(); i++) {
-			board[empty.get(i).x][empty.get(i).y] = pick[i];
-		}
-*/
 		for (int i = 0; i < 9; i++) {
 
 			for (int j = 0; j < 9; j++) {
 				sb.append(board[i][j] + " ");
 
 			}
-			
+
 			sb.append("\n");
 
 		}
