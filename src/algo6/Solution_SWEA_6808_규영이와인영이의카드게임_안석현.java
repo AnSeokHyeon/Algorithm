@@ -1,6 +1,6 @@
+// 6808. 규영이와 인영이의 카드게임
 package algo6;
 
-// 6808. 규영이와 인영이의 카드게임
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -15,7 +15,6 @@ public class Solution_SWEA_6808_규영이와인영이의카드게임_안석현 {
 	static int B[];
 	static int win, lose;
 
-	
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
