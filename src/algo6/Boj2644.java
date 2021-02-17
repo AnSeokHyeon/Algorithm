@@ -1,6 +1,6 @@
 
 // 2644 촌수계산
-package algo6;
+package algo6; //algo6 패키지에 담긴 Boj2644
 
 import java.awt.Point; // 노드 정보를 저장하기 위해 x에는 노드를 y에는 시작 노드와의 관계를 저장하기 위해 point를 사용하고자 임포트
 import java.io.BufferedReader; //버퍼 입력을 위해 임포트
