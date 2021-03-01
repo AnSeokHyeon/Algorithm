@@ -31,4 +31,4 @@ public class BOJ_2605 {
 
 	}
 
-}s
+}
