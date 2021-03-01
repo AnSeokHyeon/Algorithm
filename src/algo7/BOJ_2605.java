@@ -1,4 +1,5 @@
 // 2605 줄세우기
+package algo7;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
