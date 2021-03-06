@@ -1,21 +1,16 @@
 package algo8;
-
-//17142 연구소 3
-import java.awt.Point;
+//17142 연구소3
 import java.io.BufferedReader; //버퍼 입력을 위해 임포트
 import java.io.BufferedWriter; //버펴 출력을 위해 임포트
 import java.io.IOException; // 예외 처리를 위한 임포트
 import java.io.InputStreamReader; // 입력을 위해 임포트
 import java.io.OutputStreamWriter; // 출력을 위해 임포트
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
 import java.util.LinkedList;
-import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Main { // 클래스명
+public class BOJ_17142 { // 클래스명
 	static int map[][];
 	static int pickVirus[];
 	static int N, M;
