@@ -1,17 +1,21 @@
 package algo8;
 
 //17142 연구소 3
+import java.awt.Point;
 import java.io.BufferedReader; //버퍼 입력을 위해 임포트
 import java.io.BufferedWriter; //버펴 출력을 위해 임포트
 import java.io.IOException; // 예외 처리를 위한 임포트
 import java.io.InputStreamReader; // 입력을 위해 임포트
 import java.io.OutputStreamWriter; // 출력을 위해 임포트
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.LinkedList;
+import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class BOJ_17142 { // 클래스명
+public class Main { // 클래스명
 	static int map[][];
 	static int pickVirus[];
 	static int N, M;
@@ -125,19 +129,24 @@ public class BOJ_17142 { // 클래스명
 
 		boolean resultChk = true;
 		int max = 0;
+		//System.out.println("결과 ************************* ");
 		for (int i = 1; i <= N; i++) {
 			for (int j = 1; j <= N; j++) {
-				if (chk[i][j]) {
+				if(chk[i][j]) {
 					max = Math.max(copy[i][j], max);
 				}
 				if (!chk[i][j] && copy[i][j] == 0) {
 					resultChk = false;
 				}
 			}
+			//System.out.println();
 		}
+		//System.out.println();
 		if (resultChk)
 			result = Math.min(result, max);
+		
 
+		
 	}
 
 }// 프로그램 엔드
