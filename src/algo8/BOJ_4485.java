@@ -1,5 +1,4 @@
 package algo8;
-
 // 4485 녹색 옷 입은 애가 젤다지? 
 import java.io.BufferedReader; //버퍼 입력을 위해 임포트
 import java.io.BufferedWriter; //버펴 출력을 위해 임포트
