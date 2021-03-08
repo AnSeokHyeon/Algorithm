@@ -31,9 +31,7 @@ public class BOJ_12865 {
             for(int j=1; j<=W; j++){
             	max[i][j] = max[i-1][j];
                 if(j-w[i]>=0){
-                //j값은 배열을 채워나가며 무게
                 	max[i][j] = Math.max(max[i-1][j],max[i-1][j-w[i]]+v[i]);
-                    // 기존 값과 value를 더한 새로운 값 중 큰 것을 dp배열에 넣기
                 }
             }
         }
