@@ -56,14 +56,15 @@ public class BOJ_1916 {
 		while (!q.isEmpty()) {
 			Point top = q.poll();
 			int num = top.x;
+			int nowW = top.y;
 			int size = arr[num].size();
 			for (int i = 0; i < size; i++) {
 				int nextNum = arr[num].get(i).x;
 				int nextW = arr[num].get(i).y;
-				if (min[num] + nextW > min[nextNum])
+				if (nowW + nextW >= min[nextNum])
 					continue;
-				min[nextNum] = min[num] + nextW;
-				q.add(new Point(nextNum, min[nextNum] ));
+				min[nextNum] = nowW + nextW;
+				q.add(new Point(nextNum, nowW + nextW ));
 			}
 		}
 		bw.write(min[end] + "");
