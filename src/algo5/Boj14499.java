@@ -81,14 +81,16 @@ public class Boj14499 {
 
 		st = new StringTokenizer(br.readLine(), " ");
 		while (K-- > 0) {
-
+			System.out.println();
+			System.out.println("실행 ***********************");
+			System.out.println();
 			int d = Integer.parseInt(st.nextToken());
 			int mx = x + dx[d];
 			int my = y + dy[d];
 			if (mx < 0 || my <0 || mx > N-1 || my > M-1)
 				continue;
 
-			cubing(d);/*
+			cubing(d);
 			System.out.println("주사위 돌리고나서");
 			for (int i = 0; i < 5 ; i++) {
 				for (int j = 0; j < 5 ; j++) {
@@ -96,7 +98,7 @@ public class Boj14499 {
 				}
 				System.out.println();
 
-			}*/
+			}
 			//System.out.println(x + " , " + y + " | " + mx + " , " + my + " | " + d);
 			
 			if (map[mx][my] == 0) {
@@ -118,7 +120,7 @@ public class Boj14499 {
 			x = mx;
 			y = my;
 			sb.append(cube[2][2] + "\n");
-/*
+
 			System.out.println("지도  돌리고나서");
 			for (int i = 0; i < 5 ; i++) {
 				for (int j = 0; j < 5 ; j++) {
@@ -126,7 +128,7 @@ public class Boj14499 {
 				}
 				System.out.println();
 
-			}*/
+			}
 		}
 		bw.write(sb.toString());
 		bw.close();

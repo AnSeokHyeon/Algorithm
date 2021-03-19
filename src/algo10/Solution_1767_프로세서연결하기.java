@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 public class Solution_1767_프로세서연결하기 {
+	
 	static int board[][];
 	static ArrayList<Position> core;
 	static int coreDir[];
@@ -32,6 +33,7 @@ public class Solution_1767_프로세서연결하기 {
 		StringBuilder sb = new StringBuilder();
 		
 		while(T-- > 0) {
+			
 			core = new ArrayList<>();
 			resultCore = 0;
 			resultLine = Integer.MAX_VALUE;
