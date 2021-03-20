@@ -1,5 +1,4 @@
 package algo10;
-
 //1197 최소 스패닝 트리
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
