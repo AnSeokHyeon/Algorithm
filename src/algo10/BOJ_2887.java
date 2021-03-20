@@ -1,4 +1,4 @@
-package algo;
+package algo10;
 
 // 2887 행성터널
 import java.io.BufferedReader;
