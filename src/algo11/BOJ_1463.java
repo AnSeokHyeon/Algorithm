@@ -16,6 +16,7 @@ public class BOJ_1463 {
 
 		int N = Integer.parseInt(br.readLine());
 		int dp[] = new int[N + 1];
+		
 		Arrays.fill(dp, Integer.MAX_VALUE);
 		dp[0] = 0;
 		dp[1] = 0;
