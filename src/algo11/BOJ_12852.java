@@ -1,20 +1,12 @@
 package algo11;
 
 // 12852 1로 만들기2
-import java.awt.Point;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Map;
-import java.util.PriorityQueue;
-import java.util.Queue;
-import java.util.StringTokenizer;
 
 public class BOJ_12852 {
 	public static void main(String[] args) throws IOException {
