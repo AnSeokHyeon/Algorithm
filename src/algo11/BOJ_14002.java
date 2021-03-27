@@ -9,7 +9,6 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.Arrays;
 import java.util.Deque;
-import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 
@@ -21,7 +20,6 @@ public class BOJ_14002 {
 		int N = Integer.parseInt(br.readLine());
 		int num[] = new int[N];
 		
-		HashMap<Integer, Integer> arr = new HashMap<>();
 		
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 		for(int i= 0;  i<N; i++) {
